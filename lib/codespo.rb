@@ -1,4 +1,5 @@
 require "codespo/version"
+require 'codespo/compliment'
 
 module Codespo
   class Error < StandardError; end
