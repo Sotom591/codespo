@@ -7,10 +7,10 @@ Feature: Compliment
     When I run `codespo portray dumb`
     Then the output should contain "You is smart!"
 
-  # Scenario: you is kind
-  #   When I run `codespo portray am i mean`
-  #   Then the output should contain "You is kind!"
-  #
-  # Scenario: you is important
-  #   When I run `codespo portray do i matter`
-  #   Then the output should contain "You is important!"
+  Scenario: Am I mean
+    When I run `codespo portray mean`
+    Then the output should contain "You is kind!"
+
+  Scenario: Do I matter
+    When I run `codespo portray matter`
+    Then the output should contain "You is important!"

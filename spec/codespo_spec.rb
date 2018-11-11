@@ -14,11 +14,11 @@ RSpec.describe Codespo::Compliment do
     expect(Codespo::Compliment.portray("Dumb")).to eql("You is smart!")
   end
 
-  # it "you is kind" do
-  #   expect(Codespo::Compliment.portray("am i mean")).to eql("You is kind!")
-  # end
-  #
-  # it "you is important" do
-  #   expect(Codespo::Compliment.portray("do i matter")).to eql("You is important!")
-  # end
+  it "Am I mean" do
+    expect(Codespo::Compliment.portray("Mean")).to eql("You is kind!")
+  end
+
+  it "Do I matter" do
+    expect(Codespo::Compliment.portray("Matter")).to eql("You is important!")
+  end
 end

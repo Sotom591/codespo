@@ -4,10 +4,10 @@ module Codespo
     def self.portray(compliment)
       if compliment.downcase == "dumb"
         "You is smart!"
-      # elsif compliment.downcase == "am i mean"
-      #   "You is kind!"
-      # else compliment.downcase == "do i matter"
-      #   "You is important!"
+      elsif compliment.downcase == "mean"
+        "You is kind!"
+      else compliment.downcase == "matter"
+        "You is important!"
       end
     end
   end
