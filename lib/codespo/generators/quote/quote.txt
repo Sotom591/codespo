@@ -1,0 +1,6 @@
+##### Phrases #####
+Phrases to make a happy <%= name %> go here.
+
+
+##### Thoughts #####
+Final thoughts on making a happy <%= name %> go here.
