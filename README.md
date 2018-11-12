@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Who needs fitspo when what all we really need is codespo? 
+Get a little coding inspiration and feel better about yourself with this fun gem. 
+
 
 ## Development
 
